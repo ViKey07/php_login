@@ -1,0 +1,278 @@
+html {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(171, 255, 255);
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.body {
+    background-color: rgb(171, 255, 255);
+    height: 100vh;
+}
+
+.img-logo {
+    width: 15%;
+}
+
+p.home-title {
+    font-size: x-large;
+    font-weight: 600;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 2em;
+}
+
+.form-cont {
+    width: 90%;
+    padding: 0.7em;
+    border-radius: 2em;
+    border: 2px solid blue;
+    background-color: transparent;
+    color: black;
+}
+
+.form-cont::placeholder {
+    color: #bdbdbd;
+    font-size: larger;
+}
+
+.img-home {
+    padding: 2em;
+}
+
+.log-img {
+    width: 100%;
+}
+
+.container2 {
+    width: 50%;
+}
+
+button.btns1 {
+    padding: 0.3em 1em;
+    border-radius: 2em;
+    border: none;
+    font-size: large;
+    font-weight: 600;
+    color: blue;
+    background-color: rgb(171, 255, 255);
+    margin-right: 1em;
+}
+
+button.btns2 {
+    padding: 0.2em 1.7em;
+    border-radius: 2em;
+    color: white;
+    background-color: blue;
+    font-size: large;
+    font-weight: 600;
+    border: 2px solid rgb(171, 255, 255);
+}
+
+button.btns3 {
+    padding: 0.2em 1em;
+    border-radius: 2em;
+    border: 2px solid blue;
+    font-size: large;
+    font-weight: 600;
+    color: blue;
+    background-color: rgb(171, 255, 255);
+    margin-right: 1em;
+}
+
+a.btns4 {
+    padding: 0.4em 1em;
+    border-radius: 2em;
+    color: white;
+    background-color: blue;
+    font-size: large;
+    font-weight: 600;
+    border: none;
+}
+
+@media screen and (max-width: 480px) {
+    .container1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 2em;
+    }
+
+    .container2 {
+        width: 90%;
+        text-align: center;
+    }
+
+    p.home-title {
+        font-size: large;
+    }
+}
+
+
+
+
+
+
+
+
+
+.signup-logo {
+    width: 25%;
+}
+
+div.container3 {
+    margin: 1em;
+    padding: 3em;
+}
+
+div.signup-head {
+    text-align: center;
+    margin: 0 2em 2em 2em;
+}
+
+p.text-center {
+    font-size: xx-large;
+    font-weight: 500;
+    color: blue;
+}
+
+div.whole-form {
+    display: flex;
+    justify-content: center;
+}
+
+form.group-form {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-cont1 {
+    padding: 0.7em;
+    border-radius: 2em;
+    border: 2px solid blue;
+    background-color: transparent;
+    color: black;
+    margin: 0.7em;
+    width: 100%;
+}
+
+button.btns5 {
+    padding: 0.2em 1.7em;
+    border-radius: 2em;
+    color: white;
+    background-color: blue;
+    font-size: large;
+    font-weight: 600;
+    border: 2px solid rgb(171, 255, 255);
+    width: 20%;
+}
+
+@media screen and (max-width: 480px) {
+    .signup-logo {
+        width: 70%;
+    }
+
+    .container3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 2em;
+    }
+
+    p.text-center {
+        font-size: large;
+    }
+
+    div.whole-form {
+        width: 180%;
+    }
+
+    button.btns5 {
+        width: 50%;
+        margin: 1em;
+    }
+}
+
+
+
+
+
+
+
+div.signup-head2 {
+    text-align: center;
+    margin: 2em;
+}
+
+div.container4 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5em;
+}
+
+img.homepage-img {
+    width: 25%;
+}
+
+div.home-img {
+    width: 50%;
+    text-align: center;
+}
+
+img.hm-img {
+    width: 75%;
+}
+
+p.homepage-head {
+    font-size: xxx-large;
+    font-weight: 700;
+    color: blue;
+}
+
+p.homepage-info {
+    font-size: x-large;
+    font-weight: 500;
+    color: blue;
+}
+
+div.homepage-content {
+    width: 50%;
+}
+
+
+@media screen and (max-width: 480px) {
+    img.homepage-img {
+        width: 45%;
+    }
+
+    div.home-img {
+        width: 100%;
+    }
+
+    div.container4 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    div.homepage-content {
+        text-align: center;
+        width: 100%;
+        margin: 1em 1em;
+    }
+}
