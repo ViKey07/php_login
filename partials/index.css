@@ -28,6 +28,13 @@ input.form-cont1:focus {
     box-shadow: none;
 }
 
+input.form-cont2:focus {
+    border-color: blue;
+    outline: none; /* Add this line to remove the default outline */
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
   
 
 .img-logo {
@@ -62,6 +69,7 @@ p.home-title {
 
 .img-home {
     padding: 2em;
+    text-align: center;
 }
 
 .log-img {
@@ -265,7 +273,7 @@ button.btns5 {
     }
 
     button.btns5 {
-        width: 50%;
+        width: 80%;
         margin: 1em;
     }
 }
@@ -339,4 +347,66 @@ div.homepage-content {
         width: 100%;
         margin: 1em 1em;
     }
+
+    input.form-cont2 {
+        width: 100%;
+    }
+}
+
+
+
+div.reset {
+    margin: 0 0 1em 0;
+}
+
+a.reset-link {
+    color: black;
+}
+
+.form-cont2 {
+    width: 50%;
+    padding: 0.7em;
+    border-radius: 2em;
+    border: 1px solid blue;
+    background-color: transparent;
+    color: black;
+}
+
+form.whole-form2 {
+    /* display: flex;
+    justify-content: center; */
+    width: 100%;
+    text-align: center;
+}
+
+a.reset-link2 {
+    color: black;
+    font-size: medium;
+    font-weight: 400;
+}
+
+
+
+span.navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 0.2em;
+    vertical-align: middle;
+    content: "";
+    background: no-repeat center center;
+    background-size: 100% 100%;
+    background-color: rgb(171, 255, 255);
+}
+
+button.navbar-toggler {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+span.navbar-toggler-icon {
+    margin: 1px;
+    border: none;
+    outline: none;
 }

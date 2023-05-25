@@ -87,7 +87,9 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         </div>
 
         <div class="reset">
-            <p class="reset-link">Reset password</p>
+            <!-- <p class="reset-link">Reset password</p> -->
+            <a href="reset_password.php" class="reset-link">Reset password</a>
+
         </div>
        
          
