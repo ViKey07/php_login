@@ -2,7 +2,7 @@
 session_start();
 
 if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true){
-    header("location: login.php");
+    header("location: index.php");
     exit;
 }
 
@@ -15,7 +15,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true){
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="./partials/login.css">
+    <link rel="stylesheet" href="./partials/index.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
     <title>Welcome - <?php $_SESSION['username']?></title>
@@ -24,7 +24,7 @@ if(!isset($_SESSION['loggedin']) || $_SESSION['loggedin']!=true){
     <div class="body">
     
     <div class="signup-head2">
-      <a href="login.php"> <!-- Add anchor tag around the image -->
+      <a href="index.php"> <!-- Add anchor tag around the image -->
         <img src="./assets/Asset 212.png" alt="logo" class="homepage-img">
       </a>
     </div>

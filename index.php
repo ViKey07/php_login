@@ -41,7 +41,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="./partials/login.css">
+    <link rel="stylesheet" href="./partials/index.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
     <title>Login</title>
@@ -74,7 +74,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         </div>
         <div class="container2">
      <p class="home-title" style="color: blue;">Access world's first community <br> for students and alumni.</p>
-     <form action="/loginsystem/login.php" method="post">
+     <form action="/loginsystem/index.php" method="post">
         <div class="form-group">
             <!-- <label for="username">Username</label> -->
             <input type="text" class="form-cont" id="username" name="username" aria-describedby="emailHelp" placeholder="Email">
@@ -83,6 +83,10 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
         <div class="form-group">
             <!-- <label for="password">Password</label> -->
             <input type="password" class="form-cont" id="password" name="password" placeholder="Password">
+        </div>
+
+        <div class="reset">
+            <p class="reset-link">Reset password</p>
         </div>
        
          

@@ -34,7 +34,7 @@ p.home-title {
     width: 90%;
     padding: 0.7em;
     border-radius: 2em;
-    border: 2px solid blue;
+    border: 1px solid blue;
     background-color: transparent;
     color: black;
 }
@@ -49,11 +49,11 @@ p.home-title {
 }
 
 .log-img {
-    width: 100%;
+    width: 90%;
 }
 
 .container2 {
-    width: 50%;
+    width: 40%;
 }
 
 button.btns1 {
@@ -67,6 +67,17 @@ button.btns1 {
     margin-right: 1em;
 }
 
+button.btns1:hover {
+    padding: 0.2em 1em;
+    border-radius: 2em;
+    color: white;
+    background-color: blue;
+    font-size: large;
+    font-weight: 600;
+    border: 1px solid rgb(171, 255, 255);
+    margin-right: 1em;
+}
+
 button.btns2 {
     padding: 0.2em 1.7em;
     border-radius: 2em;
@@ -74,18 +85,39 @@ button.btns2 {
     background-color: blue;
     font-size: large;
     font-weight: 600;
-    border: 2px solid rgb(171, 255, 255);
+    border: 1px solid rgb(171, 255, 255);
+}
+
+button.btns2:hover {
+    padding: 0.3em 1.8em;
+    border-radius: 2em;
+    border: none;
+    font-size: large;
+    font-weight: 600;
+    color: blue;
+    background-color: rgb(171, 255, 255);
+    /* margin-right: 1em; */
 }
 
 button.btns3 {
     padding: 0.2em 1em;
     border-radius: 2em;
-    border: 2px solid blue;
+    border: 1px solid blue;
     font-size: large;
     font-weight: 600;
     color: blue;
     background-color: rgb(171, 255, 255);
     margin-right: 1em;
+}
+
+button.btns3:hover {
+    padding: 0.3em 1.1em;
+    border-radius: 2em;
+    color: white;
+    background-color: blue;
+    font-size: large;
+    font-weight: 600;
+    border: none;
 }
 
 a.btns4 {
@@ -98,6 +130,18 @@ a.btns4 {
     border: none;
 }
 
+a.btns4:hover {
+    padding: 0.3em 1em;
+    border-radius: 2em;
+    border: 1px solid blue;
+    font-size: large;
+    font-weight: 600;
+    color: blue;
+    background-color: rgb(171, 255, 255);
+    margin-right: 1em;
+    text-decoration: none;
+}
+
 @media screen and (max-width: 480px) {
     .container1 {
         display: flex;
@@ -105,6 +149,10 @@ a.btns4 {
         justify-content: center;
         align-items: center;
         margin: 2em;
+    }
+
+    .img-logo {
+        width: 25%;
     }
 
     .container2 {
@@ -161,7 +209,7 @@ form.group-form {
 .form-cont1 {
     padding: 0.7em;
     border-radius: 2em;
-    border: 2px solid blue;
+    border: 1px solid blue;
     background-color: transparent;
     color: black;
     margin: 0.7em;
@@ -175,7 +223,7 @@ button.btns5 {
     background-color: blue;
     font-size: large;
     font-weight: 600;
-    border: 2px solid rgb(171, 255, 255);
+    border: 1px solid rgb(171, 255, 255);
     width: 20%;
 }
 

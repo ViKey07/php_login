@@ -7,7 +7,7 @@ if (isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true) {
     $loggedin = false;
 }
 
-echo '<nav class="navbar navbar-expand-lg" style="background-color: blue;">
+echo '<nav class="navbar navbar-expand-lg" style="background-color: blue; padding: 1.5em;">
     <img src="./assets/Asset 212.png" alt="logo" class="img-logo">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -23,14 +23,14 @@ if (!$loggedin) {
                 </form>
             </li>
             <li class="nav-item">
-                <form action="/loginsystem/login.php">
+                <form action="/loginsystem/index.php">
                     <button type="submit" class="btns2">LOGIN</button>
                 </form>
             </li>';
 } else {
     echo '<li class="nav-item">
                 <form action="/loginsystem/logout.php">
-                    <button type="submit" class="btn btn-danger">Logout</button>
+                    <button type="submit" class="btns1">Logout</button>
                 </form>
             </li>';
 }
