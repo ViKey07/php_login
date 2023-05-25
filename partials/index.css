@@ -14,6 +14,22 @@ body{
     height: 100vh;
 }
 
+input.form-cont:focus {
+    border-color: blue;
+    outline: none; /* Add this line to remove the default outline */
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+input.form-cont1:focus {
+    border-color: blue;
+    outline: none; /* Add this line to remove the default outline */
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+  
+
 .img-logo {
     width: 15%;
 }
@@ -111,7 +127,7 @@ button.btns3 {
 }
 
 button.btns3:hover {
-    padding: 0.3em 1.1em;
+    padding: 0.21em 1.1em;
     border-radius: 2em;
     color: white;
     background-color: blue;
